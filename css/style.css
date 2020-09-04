@@ -346,13 +346,13 @@ p {
   height: 100%;
   margin: 0 auto;
 
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  /* position: relative;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center; */
 }
 
 .slide .slide__item {
@@ -367,7 +367,7 @@ p {
   z-index: 2;
 }
 
-.slide .slide__item.slide__item-speech-brand:after {
+/* .slide .slide__item.slide__item-speech-brand:after {
   content: "";
   display: block;
   position: absolute;
@@ -378,7 +378,7 @@ p {
   background: url(../img/speech-brand-bg.png) no-repeat -35vw 0;
   background-size: 100%;
   z-index: 1;
-}
+} */
 
 .slide .slide__item.slide__item-speech-brand {
   /*background: url(../img/speech-brand-bg.png) no-repeat #6b9dd8;
@@ -452,7 +452,7 @@ p {
   height: 100vw;
   left: 0;
   top: 0;
-  background: url(../img/about-bg.png) no-repeat right -40vw top -100vh;
+  /* background: url(../img/about-bg.png) no-repeat right -40vw top -100vh; */
   background-size: 100%;
   z-index: 1;
 }
@@ -583,7 +583,7 @@ p {
   height: 100vw;
   left: 0;
   top: 0;
-  background: url(../img/whatt-bg.png) no-repeat -20vw -25vw;
+  /* background: url(../img/whatt-bg.png) no-repeat -20vw -25vw; */
   background-size: 100%;
   z-index: 1;
 }
@@ -690,7 +690,8 @@ p {
 }
 
 .slide .slide__item.slide__item-olga {
-  background: url(../img/olga-bg-1.jpg) no-repeat;
+  /* background: url(../img/olga-bg-1.jpg) no-repeat; */
+  background-color: #6b9dd8;
   background-size: cover;
   position: relative;
 }
@@ -735,7 +736,7 @@ p {
   height: 100vw;
   left: 0;
   top: 0;
-  background: url(../img/Olga-bg-shape.png) no-repeat 0 -60vw;
+  /* background: url(../img/Olga-bg-shape.png) no-repeat 0 -60vw; */
   background-size: 100%;
   z-index: 1;
 }
