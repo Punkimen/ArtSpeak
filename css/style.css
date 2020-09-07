@@ -321,12 +321,18 @@ p {
   display: block;
   border: 3px solid #fff;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px 0px #000;
   text-align: center;
   background-color: #729f37;
   padding: 18px 10px;
   font-size: 16px;
   line-height: 18px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.date-btn:hover {
+  box-shadow: 5px 5px 5px 0px #000;
+  /* background-color: #e58513; */
 }
 
 .desktop_hide {
@@ -334,7 +340,6 @@ p {
 }
 
 .slide {
-  /* height: 100vh; */
   position: relative;
 }
 
@@ -346,24 +351,12 @@ p {
 
 
 .slide .slide__item-wrap {
-  /*max-width: 88%;*/
   max-width: 1120px;
   padding: 0 45px 50px;
-  /* height: 100%; */
   margin: 0 auto;
-
-  /* position: relative;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center; */
 }
 
-.slide .slide__item {
-  /* height: 100vh; */
-}
+
 
 .slide .slide__item.slide__item-speech-brand .slide__item-wrap {
   display: -webkit-box;
@@ -2025,7 +2018,8 @@ li.str:after {
 }
 
 /* control */
-.popup__register {
+.popup__register,
+.popup__time {
   max-width: 500px;
   margin: 0 auto;
   background-color: #e58513;
@@ -2035,11 +2029,52 @@ li.str:after {
   border-radius: 15px;
 }
 
-.popup__register-title {
+.popup__time {
+  max-width: 580px;
+  padding: 50px !important;
+}
+
+.popup__register-title,
+.popup__time-title {
   text-align: center;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 35px;
+}
+
+.popup__time-title {
+  max-width: 350px;
+  margin: 0 auto;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.popup__time-date {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.popup__time-clock {
+  font-size: 25px;
+  font-weight: bold;
+  color: #437619;
+}
+
+.popup__time-item {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: -4px 6px 16px -4px rgba(0, 0, 0, 0.75);
+  color: #000;
+  cursor: pointer;
+}
+
+.popup__time-item:last-child {
+  margin-top: 20px;
 }
 
 .popup__register-input {

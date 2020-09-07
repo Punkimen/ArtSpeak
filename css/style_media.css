@@ -643,6 +643,10 @@
         top: -310px;
         left: -240px;
     }
+
+    .popup__time {
+        padding: 20px !important;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -694,6 +698,19 @@
     .popup__register {
         padding: 30px 15px;
     }
+
+    .popup__time-title {
+        font-size: 18px;
+    }
+
+    .popup__time-date {
+        font-size: 14px;
+    }
+
+    .popup__time-clock {
+        font-size: 18px;
+        margin-left: 10px;
+    }
 }
 
 
@@ -741,6 +758,11 @@
 
     .slider__item-registration .text {
         padding: 0 20px !important;
+    }
+
+    .popup__time-date {
+        max-width: 100px;
+        width: 100%;
     }
 }
 
