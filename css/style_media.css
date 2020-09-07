@@ -663,6 +663,7 @@
     }
 
     .speech__list ul li {
+        font-size: 17px !important;
         line-height: 20px;
     }
 
@@ -705,6 +706,16 @@
     .slide .slide__item.slide__item-speech-brand .text .video-icon {
         left: 0;
         bottom: 5vh;
+    }
+
+    .slide__item-about h2,
+    .slide__item-leader h2 {
+        font-size: 18px !important;
+        line-height: 28px;
+    }
+
+    .text__list-item {
+        font-size: 14px !important;
     }
 
     .slide__item-what .text h2 {
