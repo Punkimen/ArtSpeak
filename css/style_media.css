@@ -29,9 +29,9 @@
     }
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 1118px) {
     .slide__item-leader .text {
-        margin: 0 auto;
+        margin: 0 auto 30px;
     }
 
     .slide__item-leader .img {

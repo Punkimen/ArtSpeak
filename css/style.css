@@ -309,6 +309,7 @@ p {
 .slide__item-speech-brand h1 {
   text-shadow: none;
   margin-top: 20px;
+  font-size: 45px !important;
 }
 
 
@@ -417,10 +418,15 @@ align-items: center; */
   line-height: 27px;
   color: #fff;
   font-weight: normal;
+  margin-top: 10px;
 }
 
 .slide__item-speech-brand .desktop__text h2 {
   color: #fff !important;
+}
+
+.slide__item-speech-brand .desktop__text .pb0 {
+  font-size: 25px !important;
 }
 
 .slide .slide__item.slide__item-speech-brand .text .mobile__text {
@@ -1835,7 +1841,7 @@ footer .wrap .footer a {
   height: 70px;
   width: 70px;
   background-color: #fff;
-  opacity: 0.5;
+  opacity: 0.2;
   position: absolute;
   left: -5px;
   top: -5px;
